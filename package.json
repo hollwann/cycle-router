@@ -1,0 +1,40 @@
+{
+  "name": "@hollwann/cycle-router",
+  "version": "0.0.1",
+  "description": "cycle-router is a driver for Cycle.js that allows to add multiple views and handle routing.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@cycle/isolate": "^5.2.0",
+    "xstream": "^11.11.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.4",
+    "tslint": "^6.1.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.8.3"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollwann/cycle-router.git"
+  },
+  "keywords": [
+    "cyclejs",
+    "router",
+    "driver"
+  ],
+  "author": "hollwann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hollwann/cycle-router/issues"
+  },
+  "homepage": "https://github.com/hollwann/cycle-router#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib/",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "target": "es6",
+    "allowJs": true,
+    "baseUrl": "./",
+    "paths": { "@/*": ["src/*"] }
+  },
+  "include": ["./src/**/*"]
+}
