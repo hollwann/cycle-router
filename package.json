@@ -1,6 +1,6 @@
 {
   "name": "@hollwann/cycle-router",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cycle-router is a driver for Cycle.js that allows to add multiple views and handle routing.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
